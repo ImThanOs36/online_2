@@ -31,6 +31,7 @@
   .container {
       max-width: 95em;
       margin: auto;
+      padding: 15px;
   }
 
 
@@ -40,7 +41,10 @@
       justify-content: space-between;
       padding: 20px 0px;
   }
-
+  main .header__navigation__second{
+    display:none;
+   
+  }
   .header__logo {
       align-items: center;
       display: flex;
@@ -93,10 +97,23 @@
       color: #FFFF;
       padding: 20px 35px;
   }
+  .header__show_hide-button{
+    display: none;
+    
+  }
 
 
+ .card{
 
 
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px ;
+    border-radius:10px;    
+
+
+}
 
 
   /* styling of hero  */
@@ -129,11 +146,11 @@
   }
 
 
-  .second {
+  .hero__content__heading .second {
       color: var(--yellow);
   }
 
-  .review {
+  .hero__content__review {
       font-size: 1.3em;
       color: var(--gray);
       padding: 30px 0px;
@@ -142,12 +159,13 @@
 
   }
   
-  img.odd{
+  .shopify{
     width: 1.3em;
   }
 
-  .logos {
+  .review__logos {
       padding: 0px 30px;
+      display: flex;
   }
 
 
@@ -161,16 +179,16 @@
 
   /* footer section */
 
-  .content .text {
+  .footer__content_text {
       text-align: center;
       font-size: 1.3em;
       color: var(--gray);
   }
 
-  .footer__logo {
+  .footer__content__logo {
       display: flex;
       justify-content: center;
-      gap: 5em;
+      gap: 2em;
       padding: 50px 0px;
   }
 
@@ -204,19 +222,79 @@
   /* mediaquery */
 
   @media screen and (max-width:900px) {
+    #home{
+        height: auto;
+    }
     .hero{
         flex-direction: column;
+        margin: 2em 0em;
     }
+    
     .header__navigation {
         display: none;
     }
-    *{
-        font-size: 0.5em;
+    header .header__button{
+        display: none;
     }
+    .header__show_hide-button{
+    
+        display: flex;
+    align-items: center;
+    }
+    .header__show_hide-button #close{
+        display: none;
+    }
+
+    .hero__image{
+        display: none;
+    }
+    
     .hero__image img{
         width: 100%;
     }
-    .footer__logo{
+      .review__logos img{
+          margin: 0px 5px;
+    }
+    
+    .footer__content__logo{
         flex-wrap: wrap;
+    }
+    
+    .hero__content__review .review__logos{
+        padding: 10px;
+    }
+
+    .footer__content__logo{
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .footer__content__logo img{
+        width: 8.5em;
+        padding: 0px;
+    }
+    /* making fonts responsive */
+    .hero__content__heading{
+        font-size: 1.4em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero__content__para{
+        font-size: 0.8em;
+    }
+    .hero__content__review{
+        font-size: 0.8em;
+    }
+    .hero__content__review .review__text{
+        display: flex;
+        align-items: center;
+    }
+    .footer__content_text{
+        font-size: 0.8em;
+    }
+
+    /* show-hide buttons */
+    #show{
+        display: block;
     }
   }

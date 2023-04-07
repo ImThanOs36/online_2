@@ -24,6 +24,10 @@
                     <li class="navigation__li betn-space">Resources</li>
                     <li class="navigation__li betn-space">Other Links</li>
                 </ul>
+                <div class="header__show_hide-button" id="show-hide-button">
+                    <img src="Assets/Menu.svg" alt="show" id="show" onclick=show_hide()>
+                    <img src="Assets/Close.svg" alt="close" id="close">
+                </div>
                 <div class="header__button center">
                     <a href="#" class="header__button betn-space signin">Sign in</a>
                     <a href="#" class="header__button betn-space try">Try for free</a>
@@ -33,6 +37,23 @@
             </header>
 
             <main>
+                <div class="header__navigation__second center space" id="header__navigation__second">
+                    <div class="card">
+                        <div class="card_element-one">
+                            <h3>Hello</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="card_element-one">
+                            <h3>Hello</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                        <div class="card_element-one">
+                            <h3>Hello</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+
+                    </div>
+                </div>
 
                 <div class="hero">
                     <div class="hero__content">
@@ -42,8 +63,10 @@
                         <div class="hero__text">
 
                             <div class="hero__content__heading ">
-                                <h1 class="first">Ondeck is yout remote</h1>
-                                <h1 class="second">conference calling tool</h1>
+                                <h1>
+                                    <span class="first">Ondeck is your remote</span>
+                                    <span class="second">conference calling tool</span>
+                                </h1>
                             </div>
 
 
@@ -55,19 +78,22 @@
 
 
                             <div class="header__button center">
-            
+
                                 <a href="#" class="header__button betn-space try">Try for free</a>
                             </div>
 
-                            <div class="review">
-                                <p>5.0 Rating based on review from:</p>
-                                <div class="logos">
+
+                            <div class="hero__content__review">
+                                <div class="review__text">
+                                    <p>5.0 Rating based on review from:</p>
+                                </div>
+                                <div class="review__logos">
                                     <img src="Assets/Capterra Logo.svg" alt="">
                                     <img src="Assets/AlternativeTo Logo.svg" alt="">
-                                    <img src="Assets/shopify-icon.svg" class="odd" alt="">
+                                    <img src="Assets/shopify-icon.svg" class="shopify" alt="">
                                 </div>
-                              
-                         
+
+
                             </div>
 
                         </div>
@@ -82,22 +108,25 @@
 
             </main>
             <footer>
-               
-                
+
+
                 <div class="container">
-                    <div class="content">
-                        <div class="text"> <p>Trused by 3+ million people at companies like</p></div>
-                   <div class="footer__logo">
-                    <img src="Assets/Netflix Logo.svg" alt="">
-                    <img src="Assets/Shopify Logo.svg" alt="">
-                    <img src="Assets/Spotify Logo.svg" alt="">
-                    <img src="Assets/Walmart Logo.svg" alt="">
+                    <div class="footer__content">
+                        <div class="footer__content_text">
+                            <p>Trused by 3+ million people at companies like</p>
+                        </div>
+                        <div class="footer__content__logo">
+                            <img src="Assets/Netflix Logo.svg" alt="">
+                            <img src="Assets/Shopify Logo.svg" alt="">
+                            <img src="Assets/Spotify Logo.svg" alt="">
+                            <img src="Assets/Walmart Logo.svg" alt="">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
             </footer>
         </div>
     </section>
+    <script src="Script/script.js"></script>
 </body>
 
 </html>
