@@ -230,6 +230,9 @@
   .betn-space {
       padding: 20px 25px;
   }
+  .bold{
+    font-weight: 700;
+  }
 
 
 
@@ -305,6 +308,9 @@
           gap: 20px;
           
       }
+      .card_block{
+        padding: 20px 0px;
+      }
 
        /* making fonts responsive */
 
@@ -326,7 +332,10 @@
           display: flex;
           align-items: center;
       }
-
+      .card__element__text p{
+        font-size:0.8em;
+      }
+    
       .footer__content_text {
           font-size: 0.8em;
       }
