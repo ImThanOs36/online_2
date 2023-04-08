@@ -41,10 +41,13 @@
       justify-content: space-between;
       padding: 20px 0px;
   }
-  main .header__navigation__second{
-    display:none;
-   
+
+  header .header__navigation__second {
+      display: none;
+
+
   }
+
   .header__logo {
       align-items: center;
       display: flex;
@@ -97,24 +100,37 @@
       color: #FFFF;
       padding: 20px 35px;
   }
-  .header__show_hide-button{
-    display: none;
-    
+
+  .header__show_hide-button {
+      display: none;
+
   }
 
 
- .card{
+  .card {
 
 
-    background-color: #FFFF;
-    display: flex;
-    flex-direction: column;
-    padding: 25px ;
-    border-radius:10px;    
+      background-color: #FFFF;
+      display: flex;
+      flex-direction: column;
+      padding: 15px 10px;
+      padding: 20px;
+      border-radius: 10px;
+      position: absolute;
+      top: 40px;
+      left: 10px;
+      right: 10px;
+      z-index: 2;
+  }
 
 
-}
 
+  .card__close {
+      display: flex;
+      justify-content: space-between;
+
+  }
+  
 
   /* styling of hero  */
   .hero {
@@ -158,9 +174,9 @@
 
 
   }
-  
-  .shopify{
-    width: 1.3em;
+
+  .shopify {
+      width: 1.3em;
   }
 
   .review__logos {
@@ -222,79 +238,101 @@
   /* mediaquery */
 
   @media screen and (max-width:900px) {
-    #home{
-        height: auto;
-    }
-    .hero{
-        flex-direction: column;
-        margin: 2em 0em;
-    }
-    
-    .header__navigation {
-        display: none;
-    }
-    header .header__button{
-        display: none;
-    }
-    .header__show_hide-button{
-    
-        display: flex;
-    align-items: center;
-    }
-    .header__show_hide-button #close{
-        display: none;
-    }
+      #home {
+          height: auto;
+      }
 
-    .hero__image{
-        display: none;
-    }
-    
-    .hero__image img{
-        width: 100%;
-    }
-      .review__logos img{
+      .container {
+          padding: 30px;
+      }
+
+      .hero {
+          flex-direction: column;
+          margin: 2em 0em;
+      }
+
+      .header__navigation {
+          display: none;
+      }
+
+      header .header__button {
+          display: none;
+      }
+
+      .header__show_hide-button {
+
+          display: flex;
+          align-items: center;
+      }
+
+      .header__show_hide-button #close {
+          display: none;
+      }
+
+      .hero__image {
+          display: none;
+      }
+
+      .hero__image img {
+          width: 100%;
+      }
+
+      .review__logos img {
           margin: 0px 5px;
-    }
-    
-    .footer__content__logo{
-        flex-wrap: wrap;
-    }
-    
-    .hero__content__review .review__logos{
-        padding: 10px;
-    }
+      }
 
-    .footer__content__logo{
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-    }
-    .footer__content__logo img{
-        width: 8.5em;
-        padding: 0px;
-    }
-    /* making fonts responsive */
-    .hero__content__heading{
-        font-size: 1.4em;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .hero__content__para{
-        font-size: 0.8em;
-    }
-    .hero__content__review{
-        font-size: 0.8em;
-    }
-    .hero__content__review .review__text{
-        display: flex;
-        align-items: center;
-    }
-    .footer__content_text{
-        font-size: 0.8em;
-    }
+      .footer__content__logo {
+          flex-wrap: wrap;
+      }
 
-    /* show-hide buttons */
-    #show{
-        display: block;
-    }
+      .hero__content__review .review__logos {
+          padding: 10px;
+      }
+
+      .footer__content__logo {
+          flex-direction: row;
+          flex-wrap: wrap;
+
+      }
+
+      .footer__content__logo img {
+          width: 8.5em;
+          padding: 0px;
+      }
+
+      .card__element {
+          display: flex;
+          gap: 20px;
+          
+      }
+
+       /* making fonts responsive */
+
+      .hero__content__heading {
+          font-size: 1.4em;
+          display: flex;
+          flex-wrap: wrap;
+      }
+
+      .hero__content__para {
+          font-size: 0.8em;
+      }
+
+      .hero__content__review {
+          font-size: 0.8em;
+      }
+
+      .hero__content__review .review__text {
+          display: flex;
+          align-items: center;
+      }
+
+      .footer__content_text {
+          font-size: 0.8em;
+      }
+
+      /* show-hide buttons */
+      #show {
+          display: block;
+      }
   }
