@@ -13,12 +13,12 @@ function show_close(){
         close.style.display="block"
         show.style.display="none"
     });
-    // close.addEventListener("click", function run(){
+    close.addEventListener("click", function run(){
         
-    //     hide_button.style.display="none";
-    //     show.style.display="block"
-    //     close.style.display="none"
-    // });
+        hide_button.style.display="none";
+        show.style.display="block"
+        close.style.display="none"
+    });
 
 
 }
