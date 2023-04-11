@@ -31,9 +31,12 @@ html{
   outline: 3px solid var(--lightpurple);
 
 }
+#home .container{
+  margin-top: 1em;
+}
 #home{
   height: 100vh;
-  margin-top: 1em;
+  
 }
 #about{
   height: min100vh;
