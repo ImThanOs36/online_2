@@ -190,7 +190,9 @@ ul li a {
     margin-top: 5em;
     gap: 3em;
   }
-
+  .hero__text h1{
+    font-size: 3em;
+  }
   #home,#about{
     height: auto;
     padding: 20px;  
