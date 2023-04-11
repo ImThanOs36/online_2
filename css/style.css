@@ -61,7 +61,7 @@ body {
 
 }
 #home .container {
-  padding-bottom: 3em;
+  padding-bottom: 10em;
 }
 header {
 
@@ -110,6 +110,7 @@ ul li a {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+
 }
 .hero__image{
   width: 350px;
