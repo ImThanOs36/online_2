@@ -31,7 +31,9 @@ html{
   outline: 3px solid var(--lightgray);
 
 }
-
+#home .container{
+  margin-top: 1em;
+}
 #home{
   height: 100vh;
   
@@ -164,6 +166,9 @@ ul li a {
 
 
 @media screen and (max-width:900px) {
+  #home .container{
+    margin-top: 0em;
+  }
   .container{
    
     margin-bottom: 3em;
