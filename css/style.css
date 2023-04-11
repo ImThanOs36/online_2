@@ -191,11 +191,11 @@ ul li a {
     gap: 3em;
   }
   .hero__text{
-    font-size: 1em;
+    font-size: 1.2em;
   }
   #home,#about{
     height: auto;
-    padding: 20px;  
+    padding: 10px;  
   }
   .about{
     margin-top: 3em;
