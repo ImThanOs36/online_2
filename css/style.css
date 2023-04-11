@@ -27,10 +27,10 @@ html{
   box-sizing: border-box;
   
 }
-.container, header{
+/* .container, header{
   outline: 3px solid var(--lightgray);
 
-}
+} */
 #home .container{
   margin-top: 1em;
 }
@@ -65,7 +65,7 @@ header {
   background-color: #303030;
   border-radius: 5px;
   overflow: hidden;
-  /* border: 2px solid #; */
+  border: 2px solid var(--lightpurple);
 
 
 }
@@ -167,7 +167,7 @@ ul li a {
 
 @media screen and (max-width:900px) {
   .container{
-    width: 95%;
+   
     margin-bottom: 3em;
     
   }
