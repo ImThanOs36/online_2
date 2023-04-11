@@ -167,8 +167,8 @@ ul li a {
 
 @media screen and (max-width:900px) {
   .container{
-    width: 90%;
-    margin-bottom: 1em;
+    width: 95%;
+    margin-bottom: 3em;
     
   }
   .navbar__navigation{
