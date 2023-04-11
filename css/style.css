@@ -27,7 +27,7 @@ html{
   box-sizing: border-box;
   
 }
-.container, section , header{
+.container, header{
   outline: 3px solid var(--lightpurple);
 
 }
