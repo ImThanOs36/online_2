@@ -185,9 +185,7 @@ ul li a {
   .navbar__navigation{
     display: none;
   }
-  header{
-    border: 2px solid var(--lightgray);
-  }
+
   .hero{
     margin-top: 5em;
     gap: 3em;
