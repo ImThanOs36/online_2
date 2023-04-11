@@ -190,12 +190,9 @@ ul li a {
     margin-top: 5em;
     gap: 3em;
   }
-  /* .hero__text h1{
-    font-size: 3em;
-    color:#fff;
-  } */
+  
   .hero__text h1{
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
   #home,#about{
     height: auto;
