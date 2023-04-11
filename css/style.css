@@ -31,9 +31,7 @@ html{
   outline: 3px solid var(--lightgray);
 
 }
-#home .container{
-  margin-top: 1em;
-}
+
 #home{
   height: 100vh;
   
