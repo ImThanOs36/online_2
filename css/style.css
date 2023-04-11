@@ -54,6 +54,7 @@ body {
   padding:20px;
   max-width: 90em;
   border-radius: 10px;
+  
 
 }
 
@@ -165,7 +166,10 @@ ul li a {
 
 
 @media screen and (max-width:900px) {
-
+  .container{
+    width: 100%;
+    margin: 1em;
+  }
   .navbar__navigation{
     display: none;
   }
