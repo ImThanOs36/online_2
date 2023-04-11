@@ -28,7 +28,7 @@ html{
   
 }
 .container{
-  outline: 3px solid var(--lightgray);
+  /* outline: 3px solid var(--lightgray); */
 
 }
 #home .container{
