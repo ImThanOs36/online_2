@@ -191,6 +191,7 @@ ul li a {
   }
   #home,#about{
     height: auto;
+    padding: 10px;  
   }
   .about{
     margin-top: 3em;
