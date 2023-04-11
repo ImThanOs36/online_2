@@ -54,6 +54,8 @@ body {
   padding:20px;
   max-width: 90em;
   border-radius: 10px;
+  background-color: var(--gray);
+
   
 
 }
@@ -61,7 +63,6 @@ body {
 header {
 
   padding: 15px 20px;
-  background-color: var(--gray);
   /* background-color: #303030; */
   border-radius: 10px;
   overflow: hidden;
