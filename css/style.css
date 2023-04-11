@@ -162,8 +162,8 @@ ul li a {
     display: none;
   }
   .hero{
-    margin-top: 2em;
-    justify-content: space-around;
+    margin-top: 2.5em;
+    gap: 1.3em;
   }
   .hero__text{
     font-size: 1em;
