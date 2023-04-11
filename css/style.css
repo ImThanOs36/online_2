@@ -31,6 +31,9 @@ html{
   /* outline: 3px solid var(--lightgray); */
 
 }
+section{
+  padding: 20px;
+}
 #home .container{
   margin-top: 1em;
 }
