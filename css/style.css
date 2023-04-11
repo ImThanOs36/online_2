@@ -191,7 +191,7 @@ ul li a {
     gap: 3em;
   }
   .hero__text h1{
-    font-size: 3em;
+    font-size: 1em;
   }
   #home,#about{
     height: auto;
