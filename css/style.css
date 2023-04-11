@@ -27,7 +27,7 @@ html{
   box-sizing: border-box;
   
 }
-.container, section , nav{
+.container, section , header{
   outline: 3px solid var(--lightpurple);
 
 }
@@ -35,7 +35,7 @@ html{
   height: 100vh;
 }
 #about{
-  height: 100vh;
+  height: min100vh;
 }
 body {
   background-color: var(--black);
