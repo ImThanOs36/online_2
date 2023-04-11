@@ -176,7 +176,7 @@ ul li a {
     display: none;
   }
   header{
-    outline: 2px solid var(--lightgray);
+    border: 2px solid var(--lightgray);
   }
   .hero{
     margin-top: 5em;
