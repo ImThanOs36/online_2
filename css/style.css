@@ -27,10 +27,10 @@ html{
   box-sizing: border-box;
   
 }
-.container{
+/* .container{
   outline: 3px solid var(--lightgray);
 
-}
+} */
 #home .container{
   margin-top: 1em;
 }
