@@ -155,6 +155,7 @@ ul li a {
 
  .hero__text h2{
   color: #FFB800;
+  background: var(--black);
   border-radius: 5px;
   padding: 5px;
  }
