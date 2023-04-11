@@ -39,7 +39,7 @@ html{
   
 }
 #about{
-  height: min100vh;
+  min-height: 100vh;
 }
 body {
   background-color: var(--black);
