@@ -192,6 +192,7 @@ ul li a {
   }
   .hero__text h1{
     font-size: 1em;
+    color:black;
   }
   #home,#about{
     height: auto;
