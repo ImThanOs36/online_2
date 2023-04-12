@@ -33,7 +33,7 @@ html{
 
 }
 section{
-  padding: 20px;
+  /* padding: 20px; */
 }
 #home .container{
   margin-top: 1em;
@@ -55,10 +55,10 @@ body {
 
 .container {
   margin: auto;
-  padding:20px;
+  /* padding:20px; */
   max-width: 90em;
   border-radius: 10px;
-  background-color: var(--gray);
+  /* background-color: var(--gray); */
   margin-bottom: 2em;
 
   
