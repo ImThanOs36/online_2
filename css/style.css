@@ -25,6 +25,7 @@ html{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  outline: 3px solid var(--lightgray);
   
 }
 .container{
@@ -111,7 +112,8 @@ ul li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  
 
 }
 .hero__image{
@@ -140,12 +142,12 @@ ul li a {
 }
 .card__image{
   height: 400px;
-  width: 350px;
+  width: 300px;
   background-color: #fff;
 }
 .card__text{
   height: 400px;
-  width: 350px;
+  width: 300px;
   background-color: #fff;
 
 }
@@ -188,14 +190,17 @@ ul li a {
 
   .hero{
     margin-top: 5em;
-    gap: 3em;
+    flex-direction: column-reverse;
+  }
+  .hero__logo img{
+    width: 300px;
   }
   /* .hero__text h1{
     font-size: 3em;
     color:#fff;
   } */
   .hero__text h1{
-    font-size: 0.7em;
+    font-size: 3em;
   }
   #home,#about{
     height: auto;
