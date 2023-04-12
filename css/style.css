@@ -195,12 +195,13 @@ ul li a {
   .hero__logo img{
     width: 300px;
   }
-  /* .hero__text h1{
-    font-size: 3em;
-    color:#fff;
-  } */
+  
   .hero__text h1{
+<<<<<<< HEAD
     font-size: 3em;
+=======
+    font-size: 0.3em;
+>>>>>>> 4fd8c1ce0b489a04c8565d6916f40d23b74dc588
   }
   #home,#about{
     height: auto;
