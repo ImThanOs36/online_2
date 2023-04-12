@@ -25,24 +25,29 @@ html{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  outline: 3px solid var(--lightgray);
+  /* outline: 3px solid var(--lightgray); */
   
 }
 .container{
-  /* outline: 3px solid var(--lightgray); */
-
+  outline: 3px solid var(--lightgray);
+  
+  padding: 20px;
+  
 }
 section{
-  /* padding: 20px; */
+  
+  outline: 3px solid var(--lightgray);
 }
 #home .container{
   margin-top: 1em;
 }
 #home{
-  height: 100vh;
+  height: 90vh;
+  padding-top: 1em;
   
 }
 #about{
+  padding-top: 2em;
   min-height: 100vh;
 }
 body {
@@ -58,7 +63,7 @@ body {
   /* padding:20px; */
   max-width: 90em;
   border-radius: 10px;
-  /* background-color: var(--gray); */
+  background-color: var(--gray);
   margin-bottom: 2em;
 
   
@@ -108,7 +113,7 @@ ul li a {
   font-size: 1.5em;
 }
 .hero{
-  margin-top:5em;
+  padding:5em;
   display: flex;
   justify-content: space-around;
   align-items: center;
