@@ -180,6 +180,9 @@ ul li a {
 
 
 @media screen and (max-width:900px) {
+  *{
+    outline:none;
+  }
   #home .container{
     margin-top: 0em;
   }
@@ -187,6 +190,7 @@ ul li a {
    
     margin-bottom: 3em;
     outline: none;
+    padding: 0px;
     
   }
   .navbar__navigation{
@@ -218,6 +222,10 @@ ul li a {
   .about{
     margin-top: 3em;
   }
+  section{
+    padding: 0px;
+  }
+
   
 
   
