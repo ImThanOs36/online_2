@@ -221,6 +221,7 @@ ul li a {
     margin-top: 5em;
     flex-direction: column-reverse;
     gap: 3em;
+    padding: 1em;
   }
 
   .hero__logo img {
