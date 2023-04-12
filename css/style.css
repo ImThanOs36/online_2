@@ -248,6 +248,10 @@ ul li a {
   .about {
     margin-top: 3em;
   }
+  section{
+    padding: 0px;
+    margin: 0px;
+  }
 
 
 
