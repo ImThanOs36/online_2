@@ -14,7 +14,8 @@
   --yellow: #FFB800;
 
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -26,30 +27,36 @@ html{
   padding: 0px;
   box-sizing: border-box;
   /* outline: 3px solid var(--lightgray); */
-  
+
 }
-.container{
+
+.container {
   outline: 3px solid var(--lightgray);
-  
+
   padding: 20px;
-  
+
 }
-section{
-  
+
+section {
+
   outline: 3px solid var(--lightgray);
 }
-#home .container{
+
+#home .container {
   margin-top: 1em;
 }
-#home{
+
+#home {
   height: 90vh;
   padding-top: 1em;
-  
+
 }
-#about{
+
+#about {
   padding-top: 2em;
   min-height: 100vh;
 }
+
 body {
   background-color: var(--black);
   /* background-color: var(--lightgray); */
@@ -66,12 +73,14 @@ body {
   background-color: var(--gray);
   margin-bottom: 2em;
 
-  
+
 
 }
+
 #home .container {
   padding-bottom: 9em;
 }
+
 header {
 
   padding: 15px 20px;
@@ -112,123 +121,140 @@ ul li a {
   border-radius: 5px;
   font-size: 1.5em;
 }
-.hero{
-  padding:5em;
+
+.hero {
+  padding: 5em;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  
+
 
 }
-.hero__image{
+
+.hero__image {
   width: 350px;
   border: 10px solid #9467d3;
   border-radius: 100%;
 }
-.hero__text{
+
+.hero__text {
 
   /* max-width: 350px; */
   text-align: center;
   font-size: 1.6em;
-  
+
 }
-.about{
+
+.about {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10em;
 }
 
-.about__card{
+.about__card {
   padding: 20px;
   /* width: 50em; */
-  
+
 }
-.card__image{
+
+.card__image {
   height: 400px;
   width: 300px;
   background-color: #fff;
 }
-.card__text{
+
+.card__text {
   height: 400px;
   width: 300px;
   background-color: #fff;
 
 }
- /* Typography */
- .hero__text h1{
+
+/* Typography */
+.hero__text h1 {
   font-size: 4em;
   font-weight: 700;
-  color:var(--lightgray)
- }
+  color: var(--lightgray)
+}
 
- .hero__text h2{
+.hero__text h2 {
   color: #FFB800;
   background: var(--black);
   border-radius: 5px;
   padding: 5px;
- }
- .about h3{
+}
+
+.about h3 {
   text-align: center;
   background-color: var(--lightpurple);
   padding: 10px;
   border-radius: 10px;
   font-size: 1.5em;
- }
+}
 
 
 
 @media screen and (max-width:900px) {
-  *{
-    outline:none;
+  * {
+    outline: none;
   }
-  #home .container{
+
+  #home .container {
     margin-top: 0em;
   }
-  .container{
-   
+
+  .container {
+
     margin-bottom: 3em;
     outline: none;
     padding: 10px;
-    
+
   }
-  .navbar__navigation{
+
+  .navbar__navigation {
     display: none;
   }
 
-  .hero{
+  .hero {
     margin-top: 5em;
     flex-direction: column-reverse;
     gap: 3em;
   }
-  .hero__logo img{
+
+  .hero__logo img {
     width: 300px;
   }
-  
-  .hero__text h1{
 
-    
+  .hero__text h1 {
+
+
     font-size: 2.5em;
 
   }
-  .hero__text h2{
+
+  .hero__text h2 {
     font-size: 1.5em;
   }
-  #home,#about{
+
+  #home,
+  #about {
     height: auto;
-    padding: 20px;  
+    padding: 20px;
   }
-  .about{
+
+  .about {
     margin-top: 3em;
   }
-  section{
+
+  section {
     padding: 0px;
     outline: none;
   }
 
-  
 
-  
+
+
 
 }
