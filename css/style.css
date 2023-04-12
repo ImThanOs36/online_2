@@ -153,7 +153,7 @@ ul li a {
 }
  /* Typography */
  .hero__text h1{
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 700;
   color:var(--lightgray)
  }
@@ -197,11 +197,12 @@ ul li a {
   }
   
   .hero__text h1{
-<<<<<<< HEAD
-    font-size: 3em;
-=======
-    font-size: 0.3em;
->>>>>>> 4fd8c1ce0b489a04c8565d6916f40d23b74dc588
+
+    /* font-size: 3em;
+
+    font-size: 0.3em; */
+    font-size: 2em;
+
   }
   #home,#about{
     height: auto;
