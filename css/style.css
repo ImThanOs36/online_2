@@ -242,17 +242,13 @@ ul li a {
   #home,
   #about {
     height: auto;
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .about {
     margin-top: 3em;
   }
 
-  section {
-    padding: 0px;
-    outline: none;
-  }
 
 
 
