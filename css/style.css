@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*for logo*/
+
+
+:root {
+
+
+  --black: #1E1E1E;
+  --gray: #252525;
+  --lightgray1: #E9E3DC;
+  --lightgray: #C4C4C4;
+  --lightpurple: #B3A0CD;
+  --yellow: #FFB800;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+* {
+
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* outline: 3px solid lawngreen; */
+
+}
+#home{
+  height: 100vh;
+}
+#about{
+  height: 100vh;
+}
+body {
+  background-color: var(--black);
+  /* background-color: var(--lightgray); */
+  /* color: gray; */
+  font-family: 'Abel', sans-serif;
+
+}
+
+.container {
+  margin: auto;
+  padding:20px;
+  max-width: 90em;
+
+}
+
+header {
+
+  padding: 15px 20px;
+  background-color: var(--gray);
+  background-color: #303030;
+  border-radius: 5px;
+  overflow: hidden;
+  /* border: 2px solid #; */
+
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+
+
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 15px 25px;
+  color: var(--lightpurple);
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.navbar__logo {
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: var(--lightpurple);
+  padding: 10px 20px;
+  color: var(--black);
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: 1.5em;
+}
+.hero{
+  margin-top:10em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.hero__image{
+  height: 300px;
+  border: 10px solid #9467d3;
+  border-radius: 100%;
+}
+.hero__text{
+
+  /* max-width: 350px; */
+  text-align: center;
+  font-size: 1.6em;
+  
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+.about__card{
+  padding: 20px;
+  /* width: 50em; */
+  
+}
+.card__image{
+  height: 400px;
+  width: 350px;
+  background-color: #fff;
+}
+.card__text{
+  height: 400px;
+  width: 350px;
+  background-color: #fff;
+
+}
+ /* Typography */
+ .hero__text h1{
+  font-size: 3em;
+  font-weight: 700;
+  color:var(--lightgray)
+ }
+
+ .hero__text p{
+  color: #FFB800;
+  background-color: var(--gray);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 2em;
+ }
+ .about h3{
+  text-align: center;
+  background-color: var(--lightpurple);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.5em;
+ }
+
+
+
+@media screen and (max-width:900px) {
+
+  #home,#about{
+    height: auto;
+  }
+  
+  .navbar__navigation{
+    display: none;
+  }
+  .hero{
+    margin-top: 2em;
+    flex-direction: column;
+
+  }
+  .hero__text{
+    font-size: 0.5em;
+  }
+  .about{
+    margin-top: 3em;
+  }
+  
+
+}
